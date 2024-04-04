@@ -1,0 +1,137 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: rgba(255, 255, 255, 0.8); /* Couleur neutre avec opacité */
+    padding: 20px 0;
+    position: fixed; /* Fixer la barre de navigation en haut de la fenêtre */
+    width: 100%; /* Occuper toute la largeur de la fenêtre */
+    top: 0; /* Positionner la barre de navigation en haut */
+    z-index: 9999; /* S'assurer que la barre de navigation est au-dessus du contenu */
+
+}
+.header a:hover {
+    color: red;
+  }
+  
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.menu a {
+    text-decoration: none;
+}
+.menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+.menu li:last-child {
+    margin-right: 0;
+}
+.ppe-menu {
+    position: relative; /* Permet de positionner le sous-menu par rapport à l'élément parent */
+}
+
+.submenu {
+    display: none; /* Cacher le sous-menu par défaut */
+    position: absolute;
+    top: 100%; /* Aligner le haut du sous-menu avec le bas de l'élément parent */
+    left: 0; /* Aligner le sous-menu avec le coin supérieur gauche de l'élément parent */
+    background-color: #fff; /* Couleur de fond du sous-menu */
+    padding: 10px;
+    border: 1px solid #ccc; /* Ajouter une bordure au sous-menu */
+    border-radius: 5px; /* Ajouter un rayon de bordure pour arrondir les coins */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Ajouter une ombre pour l'effet de profondeur */
+    z-index: 999; /* Assurer que le sous-menu est au-dessus des autres éléments */
+    text-align: left; /* Aligner le texte à gauche */
+}
+.submenu li {
+    white-space: nowrap; /* Empêcher les éléments de passer à la ligne automatiquement */
+}
+.ppe-menu:hover .submenu {
+    display: block; /* Afficher le sous-menu lors du survol de l'élément parent */
+}
+.right {
+    margin-left: auto;
+}
+
+.ppe1 {
+    background-color: #007bff;
+    padding: 20px 0;
+    margin-top: 100px; /* Ajouter une marge supérieure pour décaler le contenu vers le bas */
+
+}
+
+.blue-background {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.ppe2 {
+    background-color: #fff; /* Fond blanc */
+    padding: 20px 0;
+    margin-top: 100px; /* Ajouter une marge supérieure pour décaler le contenu vers le bas */
+}
+.white-background{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.ppe3 {
+    background-color: #ff0000; /* Fond rouge */
+    padding: 20px 0;
+    margin-top: 100px; /* Ajouter une marge supérieure pour décaler le contenu vers le bas */
+}
+.red-background{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;   
+}
+.text-container,
+.pdf-container {
+    flex: 1;
+    padding: 20px;
+    color: #000; 
+}
+
+.pdf-container {
+    display: flex;
+    justify-content: center;
+}
+
+.embed-container {
+    background-color: #007bff;
+    padding: 20px;
+}

@@ -1,0 +1,94 @@
+/* Reset de base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles pour le header */
+.header {
+    background-color: #ffffff; /* Couleur de fond */
+    padding: 20px 0; /* Espacement intérieur */
+    position: fixed; /* Fixer en haut de la fenêtre */
+    width: 100%; /* Largeur pleine */
+    top: 0; /* Position en haut */
+    z-index: 999; /* Empiler au-dessus du contenu */
+}
+
+.container {
+    max-width: 1200px; /* Largeur maximale */
+    margin: 0 auto; /* Centrer horizontalement */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px; /* Taille de police */
+    font-weight: bold; /* Gras */
+}
+
+.navbar {
+    position: relative; /* Position relative */
+}
+
+.menu {
+    list-style-type: none; /* Supprimer les puces */
+}
+
+.menu li {
+    display: inline-block; /* Afficher en ligne */
+    margin-right: 20px; /* Marge à droite */
+}
+
+.menu li:last-child {
+    margin-right: 0; /* Supprimer la marge à droite du dernier élément */
+}
+
+/* Sous-menu des PPE */
+.submenu {
+    display: none; /* Cacher par défaut */
+    position: absolute; /* Position absolue */
+    top: 100%; /* Position sous le parent */
+    left: 0; /* Aligner à gauche */
+    background-color: #ffffff; /* Couleur de fond */
+    padding: 10px; /* Espacement intérieur */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Ombre */
+    z-index: 9999; /* Empiler au-dessus du contenu */
+}
+
+.ppe-menu:hover .submenu {
+    display: block; /* Afficher lors du survol du parent */
+}
+
+/* Styles pour le contenu principal */
+.content-container {
+    padding: 50px 20px; /* Espacement intérieur */
+}
+
+.text-container {
+    flex: 1; /* Étendre pour remplir l'espace disponible */
+}
+
+.pdf-container {
+    flex: 1; /* Étendre pour remplir l'espace disponible */
+}
+
+/* Styles pour les différents fonds */
+.white-background {
+    background-color: #ffffff; /* Fond blanc */
+}
+
+.red-background {
+    background-color: #ff0000; /* Fond rouge */
+}
+
+.blue-background {
+    background-color: #0000ff; /* Fond bleu */
+}
+
+/* Styles généraux */
+body {
+    font-family: 'Poppins', sans-serif; /* Police de caractères */
+    color: #000000; /* Couleur du texte */
+}
