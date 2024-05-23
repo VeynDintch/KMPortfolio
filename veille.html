@@ -1,50 +1,87 @@
+<!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-<title>Mori Kevin, le portfolio</title>
-<meta name="description" content="Portfolio de Mori Kévin - Developpeur informatique - reconversion">
-<link rel="shortcut icon" href="./asset/favicon.ico.png" type="image/x-icon">
+    <title>Mori Kevin, le portfolio</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="shortcut icon" href="./asset/favicon.ico.png" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/global.css">
+    <script src="./js/global.js" defer></script>
 </head>
 
-
 <body>
-    <!-- -->
-<header class="header">
-<div class=""container>
-    <div class="logo">
+    <header class="header">
+        <div class="container d-flex">
+            <div class="logo">Kévin Mori</div>
+            <nav class="navbar">
+                <ul class="menu list-unstyled">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="index.html#about">A propos</a></li>
+                    <li><a href="index.html#stage">Stage</a></li>
+                    <li><a href="index.html#ppe">PPE</a></li>
+                    
 
-    <nav class="navbar">
-        <ul class="menu list-unstyled">
-           <li><a href="index.html">Acceuil</a></li>
-            <li class="deroulant">Stages</li>
-                <ul class="sous list-unstyled">
-                    <li><a href="stage0.html">Stage 1</a></li>
-                    <li><a href="stage1.html">Stage 2</a></li>
-                    <li><a href="stage2.html">Stage 3</a></li>
+
+                    <li><a href="certificats.html">Certificats</a></li>
+                    <li><a href="Veille.html">Veille informatique</a></li>
                 </ul>
-            <li class=" deroulant">PPE</li>
-                <ul class="sous list-unstyled">
-                    <li><a href="ppe1.html">PPE 1</a></li>
-                    <li><a href="ppe2.html">PPE 2</a></li>
-                    <li><a href="ppe3.html">PPE 3</a></li>
+            </nav>
+            <div class="right">
+                <ul class="socials list-unstyled">
+                    <li>
+                        <a href="http://www.linkedin.com/in/kévin-mori-informatique" target="_blank">
+                            <svg width="18" class="icon_lk" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                <path
+                                    d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z">
+                                </path>
+                            </svg>
+                        </a>
+                    </li>
                 </ul>
-            <li><a href="certificats.html">Certificats</a></li>
-            <li><a href="Veille.html">Veille informatique</a></li>
-            
-        </ul>
-    </nav>
+                <button class="burger"><span class="bar"></span></button>
+            </div>
+        </div>
+    </header>
 
-    </div>
-
-</div>
-
-
-</header>
-
-
-</body>
+<section id="Veille" class="stage">
+    <section class="container">
+        <div class="section-header">
+            <div class="text-container">
+                <h2>Veille informatique :</h2>
+                <p> Qu'est-ce que la veille technologique ?
+                La veille technologique, élément de la veille stratégique, consiste à surveiller les évolutions techniques, les
+                innovations dans un secteur d’activité donnée. La veille technologique comprend notamment la surveillance, la collecte,
+                le partage et la diffusion d’information permettant d’anticiper ou de s’informer sur des changements en matière de
+                recherche, développement, brevet, lancement de nouveaux produits, matériaux, processus, concepts, innovation de
+                fabrication. Cela a pour but d’évaluer l’impact sur l’environnement et l’organisation.</p>
+                
+                
+                
+                <p>J'ai effectuer ma veille technologique grace aux newsletters tel que Feedly un agrégateur de flux RSS, des sites comme IT-connect
+                    ou Zataz qui rencense des fails ou des cyber-attaque, des potcast tel que Uderscore_ , Cybertalk
+                En plus des informations fournis chaque semaine/mois, j'ai quelque sites
+                en favoris permettant de me tenir au courant des derniéres actualités tel que Hitek.fr qui est un site internet
+                regroupant l’actualité High Tech et Geek, ou encore Hardware.fr.</p>
+                <h3>Théme 1: Comment L'intelligence artificielle impacte t'elle la cybersécurité ? </h3>
+                <h4> L'IA un outils de defense</h4>
+                <p>L'IA permet de développer des systèmes avancés de détection des menaces capables d'analyser de vastes ensembles de
+                données pour identifier les attaques potentielles souvent manquées par les humains. Ces systèmes automatisent les tâches
+                répétitives et fournissent des informations prédictives, facilitant une approche proactive de la sécurité <a href="https://www.isaca.org/resources/news-and-trends/isaca-now-blog/2024/securing-the-future-enhancing-cybersecurity-in-2024-and-beyond">source Isaca​</a>​</p>
+                    <h4> L'IA un outils de d'attaque</h4>
+                    <p>Les cybercriminels utilisent l'IA pour augmenter la sophistication de leurs attaques. Par exemple, l'IA est utilisée
+                    pour automatiser des attaques comme le phishing ou pour trouver des vulnérabilités dans les systèmes informatiques. Les
+                    attaques peuvent devenir plus difficiles à détecter et à prévenir<a href="https://www.globalsign.com/fr/blog/nouvel-outil-pour-pirates-informatiques-ia-dans-la-cybersecurite#:~:text=L'intelligence%20artificielle%20a%20le,'une%20contre-offensive%20proactive."> source Globalsign</a></p>
+                        <h4> devons nous protéger L'IA </h4>
+                        <p>Une menace interne importante est la possibilité que les données d'entraînement de l'IA soient compromises. Si les
+                        données d'entraînement sont empoisonnées, cela peut entraîner des décisions incorrectes ou même des actions
+                        malveillantes par les systèmes automatisés.Une autre dimension critique est la protection des systèmes d'IA eux-mêmes contre les attaques, comme les injections de
+                        prompts et les fuites de données<a href="https://www.securityweek.com/cyber-insights-2024-artificial-intelligence/"> source SecurityWeek</a>​</p>
+                </body>
 
 
 
